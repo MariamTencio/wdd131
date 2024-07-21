@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temple Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" media="(min-width: 600px)">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Filtered Temple Album</h1>
+    </header>
+    <nav>
+        <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+        <ul>
+            <li><a href="#" class="active" data-filter="all">Home</a></li>
+            <li><a href="#" data-filter="old">Old</a></li>
+            <li><a href="#" data-filter="new">New</a></li>
+            <li><a href="#" data-filter="large">Large</a></li>
+            <li><a href="#" data-filter="small">Small</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Home</h2>
+        <div id="temple-cards-container"></div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Mariam - San Jose / Costa Rica</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
