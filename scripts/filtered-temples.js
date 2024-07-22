@@ -59,7 +59,7 @@ const temples = [
         location: "Payson, Utah, USA",
         dedicated: "June 7, 2015",
         area: 96630,
-        imageUrl: "images/Payson.jpeg"
+        imageUrl: "images/payson.jpeg"
 
     },
     {
