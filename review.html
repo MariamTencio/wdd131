@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Confirmation</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Thank you for your review!</h1>
+    </header>
+    <section>
+        <p>Your review has been submitted successfully.</p>
+        <p>Total reviews submitted: <span id="review-count"></span></p>
+    </section>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Mariam - San Jose / Costa Rica</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script>
+        // Increment review count in localStorage
+        let reviewCount = localStorage.getItem('reviewCount') || 0;
+        reviewCount++;
+        localStorage.setItem('reviewCount', reviewCount);
+        document.getElementById('review-count').innerText = reviewCount;
+    </script>
+</body>
+</html>
