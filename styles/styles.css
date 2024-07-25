@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e6e5f0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #282630;
+    color: #ffffff;
     padding: 1em;
     text-align: center;
 }
 
 form {
-    background: white;
+    background: #ffffff;
     padding: 2em;
     margin: 2em auto;
     max-width: 600px;
@@ -52,8 +52,8 @@ fieldset {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #282630;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
     position: fixed;
